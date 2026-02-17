@@ -1,12 +1,10 @@
 # Digital-Epidemiology-Heat-Resilience
 A Digital Twin framework for the Southwestern US identifying 'Critical Deserts' - zones where extreme heat and infrastructure latency create a 100% resource deficit. Quantifying a $49.25M systemic risk through digital epidemiology and predictive asset sensing.
 
-# APSO Resilience System: Closing the Heat Survival Gap
-
 [![Status](https://img.shields.io/badge/Status-Active-green.svg)]()
 [![Location](https://img.shields.io/badge/Region-Southwest_US-orange.svg)]()
 
-### 🔬 Project Overview
+### Project Overview
 Developed in collaboration with **Professor Michelle Williams (Stanford University)**, the **APSO (Advanced Preparedness & Shelter Operations) Resilience System** is a digital epidemiological framework designed to identify "Critical Deserts"—geographic zones where extreme heat poses an immediate lethal risk due to a total lack of operational infrastructure.
 
 
