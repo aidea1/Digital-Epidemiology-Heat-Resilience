@@ -1,45 +1,65 @@
 # Digital-Epidemiology-Heat-Resilience
-A Digital Twin framework for the Southwestern US identifying 'Critical Deserts' - zones where extreme heat and infrastructure latency create a 100% resource deficit. Quantifying a $49.25M systemic risk through digital epidemiology and predictive asset sensing.
+
+[cite_start]A Digital Twin framework for the Southwestern US identifying 'Critical Deserts'—zones where extreme heat and infrastructure latency create a 100% resource deficit[cite: 5, 6, 44]. [cite_start]Quantifying a $49.25M systemic risk through digital epidemiology and predictive asset sensing[cite: 7, 35]. 
+
+**🔗 View the Interactive Map:** [aidea1.github.io/Digital-Epidemiology-Heat-Resilience/](https://aidea1.github.io/Digital-Epidemiology-Heat-Resilience/)
 
 [![Status](https://img.shields.io/badge/Status-Active-green.svg)]()
 [![Location](https://img.shields.io/badge/Region-Southwest_US-orange.svg)]()
+[![Affiliation](https://img.shields.io/badge/Affiliation-Stanford_University-red.svg)]()
 
-### Project Overview
-Developed in collaboration with **Professor Michelle Williams (Stanford University)**, the **APSO (Advanced Preparedness & Shelter Operations) Resilience System** is a digital epidemiological framework designed to identify "Critical Deserts"—geographic zones where extreme heat poses an immediate lethal risk due to a total lack of operational infrastructure.
-
+### 🔬 Project Overview
+[cite_start]Developed in collaboration with **Professor Michelle Williams (Stanford University)**, the **APSO (Advanced Preparedness & Shelter Operations) Resilience System** is a digital epidemiological framework designed to identify "Critical Deserts"—geographic zones where extreme heat poses an immediate lethal risk due to a total lack of operational infrastructure[cite: 5, 6].
 
 ### The Problem: "The Deadly Gap"
-Static resource maps are failing. Our research identifies a profound **Operational Latency**: cooling centers often appear on maps but are closed during peak heat cycles (13:00–17:00).
-* **Survival Window:** At temperatures >110°F, heatstroke becomes fatal 70% more often if care is delayed by over 60 minutes.
-* **Economic Risk:** Our system identifies a **$49.25 million systemic risk** in the Southwest, with each "Critical Desert" station representing a $197,000 seasonal cost in emergency ICU admissions.
+[cite_start]Static resource maps fail to account for **Operational Latency**: the reality that a cooling center on a map is useless if it is closed during the peak of a heat cycle (13:00–17:00)[cite: 9, 10, 41].
 
-### Methodology & Tech Stack
-The system functions as a "Digital Twin" of the Arizona-California Heat Belt using three intelligence layers:
-1. **Climatological Modeling:** 10 years of GHCN-Daily data used to establish longitudinal exposure means.
-2. **Synchronous Asset Sensing:** Integration with the **Google Places V1 API** to simulate real-time operational status (e.g., verifying if a library is actually open at 3 PM on a 115°F Monday).
-3. **Public Welfare Risk Score (PWRS):** A proprietary metric quantifying the intersection of environmental stress and infrastructural absence.
+* [cite_start]**Biological Survival Window:** At temperatures exceeding 110°F, human thermoregulation reaches a breaking point[cite: 12]. [cite_start]If Time to Care (TTC) exceeds 60 minutes, the probability of fatal heatstroke increases by over 70%[cite: 13].
+* [cite_start]**The Resilience Deficit:** 100% of analyzed nodes showed zero searchable survival assets during peak 3:00 PM heat simulations, despite historical peaks of 118°F[cite: 16, 44].
+* [cite_start]**Economic Risk:** The system identifies a **$49.25 million systemic risk** in the Southwest[cite: 7, 35, 45]. [cite_start]Each "Critical Desert" station represents a **$197,000 seasonal cost** in emergency ICU admissions[cite: 36].
 
-### Key Results
-An audit of 250 primary nodes revealed:
-| Location | Avg July Max | Status |
-| :--- | :--- | :--- |
-| Death Valley NP, CA | 121.9°F | **CRITICAL DESERT** |
-| Needles Airport, CA | 116.2°F | **CRITICAL DESERT** |
-| Phoenix Airport, AZ | 114.7°F | **CRITICAL DESERT** |
-| Ajo, AZ | 111.9°F | **CRITICAL DESERT** |
+### 🛠️ Methodology & Tech Stack
+[cite_start]The system functions as a "Digital Twin" of the Arizona-California Heat Belt using three intelligence layers[cite: 18]:
 
-* **100% Resource Deficit:** Every analyzed node showed zero searchable survival assets during peak heat simulations.
+1.  [cite_start]**Climatological Modeling:** 10 years of GHCN-Daily data used to establish a "Longitudinal Exposure Mean"[cite: 19, 20].
+2.  [cite_start]**Synchronous Asset Sensing:** Integration with the **Google Places V1 API** to simulate real-time operational status during peak stress (e.g., Monday at 15:00 in July)[cite: 22, 23, 24].
+3.  [cite_start]**Public Welfare Risk Score (PWRS):** A proprietary metric quantifying the intensification of social vulnerability when environmental stress meets infrastructural absence[cite: 25, 26, 27].
+
+
+
+#### The PWRS Formula
+[cite_start]To quantify the "Resilience Void," we apply the following calculation[cite: 25, 26]:
+$$PWRS = (Avg\_July\_MaxT \times 0.8) + (Isolation\_Factor)$$
+* [cite_start]**Isolation Factor:** A $+20$ penalty for zero-asset saturation[cite: 28].
+
+### Key Results: The Lethal Corridor
+[cite_start]An audit of 250 primary nodes identified **2,530 Critical Desert points**[cite: 30, 31, 32].
+
+| Station Name | State | Avg July Max | PWRS | Status |
+| :--- | :--- | :--- | :--- | :--- |
+| Death Valley NP | CA | 121.9°F | 117.50 | **CRITICAL DESERT** |
+| Needles Airport | CA | 116.2°F | 112.95 | **CRITICAL DESERT** |
+| Tacna 3 NE | AZ | 115.0°F | 112.03 | **CRITICAL DESERT** |
+| Phoenix Airport | AZ | 114.7°F | 111.74 | **CRITICAL DESERT** |
+| Ajo | AZ | 111.9°F | 109.52 | **CRITICAL DESERT** |
+
+[cite_start]*(Data derived from `apso_vulnerability_deep_dive.csv` [cite: 33])*
 
 ### The Solution: Activation over Auditing
-We propose a shift from documenting heat illness to active prevention via:
-* **Mobile Resilience Nodes (MRNs):** Retrofitted, solar-powered units deployed to GPS-validated deserts.
-* **Algorithmic Activation:** Triggering operational mandates for state buildings based on PWRS data.
+[cite_start]We propose a transition from documenting heat illness to active prevention via the APSO Ecosystem[cite: 37, 38]:
+* [cite_start]**Mobile Resilience Nodes (MRNs):** Deploying retrofitted, solar-powered units to GPS-validated deserts[cite: 40].
+* [cite_start]**Algorithmic Activation:** Triggering "Operational Mandates" for state buildings using PWRS data to ensure they remain open during peak danger windows[cite: 41].
 
-### 📂 Repository Structure
+### Repository Structure
 * `/data`: Contains `apso_vulnerability_deep_dive.csv` and historical GHCN datasets.
 * `/map`: Contains `index.html` (Interactive Resilience Map).
 * `/docs`: Full white paper and methodology details.
 
+### Collaboration & Credentials
+* [cite_start]**Lead Researcher:** Akshaya Bhagavathula [cite: 48]
+* **Academic Partner:** Professor Michelle Williams, Stanford University.
+* [cite_start]**Institutional Context:** This research serves as a decision-support engine for the Governor’s Office of Resiliency and DEMA[cite: 39].
+
 ---
-**Lead Researcher:** Akshaya Bhagavathula  
-**Date:** February 10, 2026
+[cite_start]**Date:** February 10, 2026 [cite: 49]  
+[cite_start]*Resilience is not a status; it is a synchronous response.* [cite: 47]
