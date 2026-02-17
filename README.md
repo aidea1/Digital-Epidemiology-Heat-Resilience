@@ -61,5 +61,5 @@ $$PWRS = (Avg\_July\_MaxT \times 0.8) + (Isolation\_Factor)$$
 * [cite_start]**Institutional Context:** This research serves as a decision-support engine for the Governor’s Office of Resiliency and DEMA[cite: 39].
 
 ---
-[cite_start]**Date:** February 10, 2026 [cite: 49]  
-[cite_start]*Resilience is not a status; it is a synchronous response.* [cite: 47]
+**Date:** February 10, 2026 [cite: 49]  
+Resilience is not a status; it is a synchronous response.* [cite: 47]
