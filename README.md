@@ -7,7 +7,7 @@
 [![Status](https://img.shields.io/badge/Status-Active-green.svg)]()
 [![Location](https://img.shields.io/badge/Region-Southwest_US-orange.svg)]()
 [![Affiliation](https://img.shields.io/badge/Affiliation-Stanford_University-red.svg)]()
-
+[![Affiliation](https://img.shields.io/badge/Affiliation-North_Dakota_State_University-red.svg)]()
 ### 🔬 Project Overview
 [cite_start]Developed in collaboration with **Professor Michelle Williams (Stanford University)**, the **APSO (Advanced Preparedness & Shelter Operations) Resilience System** is a digital epidemiological framework designed to identify "Critical Deserts"—geographic zones where extreme heat poses an immediate lethal risk due to a total lack of operational infrastructure[cite: 5, 6].
 
